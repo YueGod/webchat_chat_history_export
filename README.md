@@ -6,6 +6,19 @@ A macOS desktop tool to decrypt, browse, and export WeChat (微信) chat history
 ![Python](https://img.shields.io/badge/python-3.10+-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
+[中文文档](README_CN.md)
+
+## Download
+
+**[v1.0.0 Release](https://github.com/YueGod/webchat_chat_history_export/releases/tag/v1.0.0)** — Pre-built macOS app, download and use directly:
+
+| File | Description |
+|---|---|
+| [微信聊天记录查看器-1.0.0.dmg](https://github.com/YueGod/webchat_chat_history_export/releases/download/v1.0.0/微信聊天记录查看器-1.0.0.dmg) | macOS app bundle (arm64), double-click to install |
+| Source code (zip / tar.gz) | Run from source with Python |
+
+> For the DMG version, open the `.dmg`, drag the app to Applications, and launch. No Python installation required.
+
 ## Overview
 
 WeChat for Mac stores chat messages in SQLCipher-encrypted SQLite databases. This tool automates the entire process — from extracting encryption keys out of WeChat's memory, decrypting the databases, to presenting a full conversation viewer with CSV export.

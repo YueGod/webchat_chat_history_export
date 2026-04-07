@@ -6,6 +6,19 @@
 ![Python](https://img.shields.io/badge/python-3.10+-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
+[English](README.md)
+
+## 下载安装
+
+**[v1.0.0 正式版](https://github.com/YueGod/webchat_chat_history_export/releases/tag/v1.0.0)** — 已打包的 macOS 应用，下载即用：
+
+| 文件 | 说明 |
+|---|---|
+| [微信聊天记录查看器-1.0.0.dmg](https://github.com/YueGod/webchat_chat_history_export/releases/download/v1.0.0/微信聊天记录查看器-1.0.0.dmg) | macOS 应用安装包（arm64），双击安装 |
+| Source code (zip / tar.gz) | 源码版本，需 Python 环境运行 |
+
+> DMG 版本无需安装 Python，打开 `.dmg` 后将应用拖入「应用程序」文件夹即可使用。
+
 ## 概述
 
 Mac 版微信将聊天消息存储在 SQLCipher 加密的 SQLite 数据库中。本工具实现了完整的自动化流程——从微信进程内存中提取加密密钥、解密数据库，到提供完整的聊天记录浏览器和 CSV 导出功能。
