@@ -13,8 +13,8 @@ VERSION="1.0.0"
 ENTRY="main.py"
 
 echo "==> Checking dependencies..."
-python3 -c "import PySide6" 2>/dev/null || {
-    echo "PySide6 not installed. Run: pip install PySide6"
+python3 -c "import webview" 2>/dev/null || {
+    echo "pywebview not installed. Run: pip install pywebview"
     exit 1
 }
 python3 -c "import PyInstaller" 2>/dev/null || {
